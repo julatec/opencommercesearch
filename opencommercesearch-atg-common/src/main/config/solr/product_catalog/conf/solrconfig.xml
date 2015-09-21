@@ -134,14 +134,11 @@
     </lst>
   </searchComponent>
 
+  <xi:include href="xinclude/boosts.xml" parse="xml"
+    xmlns:xi="http://www.w3.org/2001/XInclude" />
+
   <valueSourceParser name="fixedBoost"
     class="org.opencommercesearch.lucene.queries.function.valuesource.FixedBoostValueSourceParser" />
-
-  <valueSourceParser name="boost"
-    class="org.opencommercesearch.lucene.queries.function.valuesource.BoostValueSourceParser">
-    <str name="boostApiHost">http://localhost:9000</str>
-    <str name="boostLimit">20</str>
-  </valueSourceParser>
 
   <xi:include href="xinclude/admin-handler.xml" parse="xml"
     xmlns:xi="http://www.w3.org/2001/XInclude" />

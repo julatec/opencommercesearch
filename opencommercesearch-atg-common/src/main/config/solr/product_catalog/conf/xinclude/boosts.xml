@@ -1,0 +1,5 @@
+<valueSourceParser name="boost"
+    class="org.opencommercesearch.lucene.queries.function.valuesource.BoostValueSourceParser">
+    <str name="boostApiHost">http://localhost:9000</str>
+    <str name="boostLimit">20</str>
+</valueSourceParser>
